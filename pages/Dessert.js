@@ -1,4 +1,4 @@
-export function Dessert() {
+export default function Dessert() {
   return (
     <div>
       <h1>Hello Dessert</h1>

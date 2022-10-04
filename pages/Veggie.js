@@ -1,4 +1,4 @@
-export function Veggie() {
+export default function Veggie() {
   return (
     <div>
       <h1>Hello Veggie</h1>
