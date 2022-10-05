@@ -10,7 +10,7 @@ export default function Dessert() {
         width={1599}
         height={2400}
       />
-      <h1>Hello Dessert</h1>
+      <h2>Hello Dessert</h2>
       <p>This is a text</p>
     </div>
   );

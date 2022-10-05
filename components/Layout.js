@@ -1,12 +1,17 @@
 import Footer from "./Footer";
 import Header from "./Header";
+import styled from "styled-components";
 
 export default function Layout({ children }) {
   return (
     <>
       <Header />
-      <main>{children}</main>
+      <StyledMain>{children}</StyledMain>
       <Footer />
     </>
   );
 }
+
+const StyledMain = styled.main`
+  min-height: calc(100vh - 8rem);
+`;

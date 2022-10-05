@@ -10,7 +10,7 @@ export default function Veggie() {
         width={2400}
         height={1597}
       />
-      <h1>Hello Veggie</h1>
+      <h2>Hello Veggie</h2>
       <p>This is a text</p>
     </div>
   );
